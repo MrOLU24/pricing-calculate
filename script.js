@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function(){
-    const ValueInput = document.getElementById('value')
-    ValueInput.addEventListener("keyup", pricing)
-})
+document.addEventListener("DOMContentLoaded", function () {
+  const ValueInput = document.getElementById("value");
+  ValueInput.addEventListener("keyup", pricing);
+});
 
 function pricing() {
   let val = document.getElementById("value").value;
