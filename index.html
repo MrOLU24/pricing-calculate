@@ -15,15 +15,15 @@
         <h1>Pricing calculator</h1>
         <p>Enter a pricing Number</p>
       </div>
-      <input type="number" id="value" />
+      <input type="number" onkeyup="pricing()" id="value" />
       <div class="calculate-wrapper">
         <div class="calculate">
           <p>we'll settle you:</p>
-          <p class="amt" id="calculate">0</p>
+          <p class="amt" id="settle">0</p>
         </div>
         <div class="calculate fees">
           <p>Our Fees 1.5%</p>
-          <p class="amt" id="calculate">0</p>
+          <p class="amt" id="fees">0</p>
         </div>
       </div>
     </div>
