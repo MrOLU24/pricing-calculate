@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricing calculator</title>
-    <link rel="stylesheet" href="./styled.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styled.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="title">
-            <h1>Pricing calculator</h1>
-            <p>Enter a pricing Number</p>
+      <div class="title">
+        <h1>Pricing calculator</h1>
+        <p>Enter a pricing Number</p>
+      </div>
+      <input type="number" id="value" />
+      <div class="calculate-wrapper">
+        <div class="calculate">
+          <p>we'll settle you:</p>
+          <p class="amt" id="calculate">0</p>
         </div>
+        <div class="calculate fees">
+          <p>Our Fees 1.5%</p>
+          <p class="amt" id="calculate">0</p>
+        </div>
+      </div>
     </div>
-</body>
-<script src="./script.js"></script>
+  </body>
+  <script src="./script.js"></script>
 </html>
